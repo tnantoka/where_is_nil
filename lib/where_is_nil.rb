@@ -1,0 +1,2 @@
+module WhereIsNil
+end
