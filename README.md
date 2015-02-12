@@ -17,7 +17,15 @@ gem 'where_is_nil'
 ## Usage
 
 ```
+$ rails c
+> User.find_by(id: 1)
+=> #<User id: 1>
 
+> User.find_by(nil)
+WhereIsNil::FindByNil: Why do you find by nil? Did you mean `find_by(id: nil)`?
+
+> User.find_by(1)
+WhereIsNil::FindByNil: Why do you find by 1? Did you mean `find_by(id: 1)`?
 ```
 
 ## Configuration
