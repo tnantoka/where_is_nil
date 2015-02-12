@@ -1,6 +1,6 @@
 # WhereIsNil
 
-[![Gem Version](https://badge.fury.io/rb/where_is_nil.svg)](http://badge.fury.io/rb/where_is_nil) [![Code Climate](https://codeclimate.com/github/tnantoka/where_is_nil/badges/gpa.svg)](https://codeclimate.com/github/tnantoka/where_is_nil) [![Circle CI](https://circleci.com/gh/tnantoka/where_is_nil.svg?style=svg)](https://circleci.com/gh/tnantoka/where_is_nil)
+[![Gem Version](https://badge.fury.io/rb/where_is_nil.svg)](http://badge.fury.io/rb/where_is_nil) [![Code Climate](https://codeclimate.com/github/tnantoka/where_is_nil/badges/gpa.svg)](https://codeclimate.com/github/tnantoka/where_is_nil) [![Circle CI](https://circleci.com/gh/tnantoka/where_is_nil.svg?style=svg)](https://circleci.com/gh/tnantoka/where_is_nil) [![Test Coverage](https://codeclimate.com/github/tnantoka/where_is_nil/badges/coverage.svg)](https://codeclimate.com/github/tnantoka/where_is_nil)
 
 `find_by(nil)` always returns first record. (https://github.com/rails/rails/issues/14867)  
 WhereIsNil gives notice when invoke `find_by(nil)` or `find_by(Fixnum)`.
