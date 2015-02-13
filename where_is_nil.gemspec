@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["tnantoka@bornneet.com"]
   s.homepage    = "https://github.com/tnantoka/where_is_nil"
   s.summary     = "Prevent unexpected find_by(nil) on Rails."
-  s.description = "Raise error, print wraning log, return nil when call find by nil or Fixnum."
+  s.description = "Raise error, print warning log, return nil when call find by nil or Fixnum."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
